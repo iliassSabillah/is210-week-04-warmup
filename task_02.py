@@ -3,4 +3,6 @@
 """This module does some pretty crazy math."""
 
 
-import hamlet
+from hamlet import crazy_math
+
+POSITIONAL = crazy_math(4, 100000, 8, 98)

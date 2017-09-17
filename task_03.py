@@ -3,4 +3,6 @@
 """This module does some pretty crazy math."""
 
 
-import hamlet
+from hamlet import crazy_math
+
+KEYWORD = crazy_math(monkeys= 84, hours= 200000, bananas=48)
